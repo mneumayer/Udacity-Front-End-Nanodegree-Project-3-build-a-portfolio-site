@@ -1,0 +1,74 @@
+header {
+
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  width: 10vw;
+}
+
+hr {
+  color: #7d97ad;
+  background-color: #7d97ad;
+  height: 5px;
+}
+
+.fw {
+  text-align: left;
+  padding-left: 25px;
+  color: #7d97ad;
+}
+
+p,
+header {
+  color: #2d3c49;
+}
+
+@media screen and (min-width: 360px) {
+
+  .logo {
+    width: 10vw;
+    padding-top: 10px;
+  }
+
+  .title {
+    padding-left: 10%;
+    font-weight: bold;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+
+  .fw,
+  h2,
+  h5 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+  .fw {
+    text-align: left;
+    padding-left: 2%;
+  }
+
+}
+
+
+@media screen and (min-width: 1199px) {
+
+  .logo {
+    width: 90px;
+  }
+
+}
